@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+<nav>
+    <div id="header">
+    <ul>
+        <li><a href="#hero_container">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact_container">Contact me</a></li>
+        <li id="header__line"></li>
+        <li>
+            <button class="header__sun" id="theme-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                    <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                  </svg>
+                  
+            </button>
+        </li>
+    </ul>
+</div>
+
+    <button class="header__bars" id="mobileBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+    </button>
+    
+
+</nav>    
+<div>
+    <!--mobile_menu-->
+    
+    <div id="mobile_menu">
+        <ul>
+            <li><a class="mobile-nav__link" href="#hero_container">About</a></li>
+            <li><a class="mobile-nav__link"  href="#project">Projects</a></li>
+            <li><a class="mobile-nav__link"  href="#contact_container">Contact me</a></li>
+            <li id="mobile-line"></li>
+            <li><button class="mobile__sun" id="mobile-theme">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                    <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                  </svg></li>
+                  
+            </button>
+            
+        </ul>
+
+
+    </div>
+
+    <!--mobile menu end-->
+    <main id="hero_container">
+        <img src="Images/433245675_7286382888105363_7953494246190774362_n.jpg" alt="Profile" class="hero__img">
+         <h2 class="hero__subtitle">Hi, I am Sakrit 👋</h2>
+         <h1 class="hero__title">FRONT-END <br> WEB DEVELOPER.</h1>
+         <p class="hero__description">A self-made and passionate web-developer excelling in <strong>HTML</strong> and <strong>JavaScript</strong></p>
+         <button id="reachBtn"><a href="mailto:sakriit.xd@gmail.com" target="_blank">Reach Out</a></button>
+    </main>
+    
+</div>
+<br><br>
+<hr>
+<div id="project">
+<h1 id="project_title">Check out my projects!</h1>
+<div class="Project_container" id="Project_container">
+    
+   
+    <div id="project_calculator" ><a href="calculator.html" target="_blank">Calculator!</a></div>
+    <div id="project_weather">b</div>
+    <div id="project_landingpage">c</div>
+</div>
+</div>
+<hr>
+<div id="contact_container">
+<h1>Get in contact!</h1>
+<h3>Click the "Reach out" button above or use this email:</h3>
+<h4>sakriit.xd@gmail.com</h4>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
